@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="hospital.com">
+    <link rel="icon" href="images/icon.png" type="image/x-icon">
+    <title>Book Appointment</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+</head>
+<style>
+     ::-webkit-scrollbar {
+        width: 25px;
+    }
+    
+     ::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 5px rgb(0, 255, 255);
+        background-color: black;
+        border-radius: 12px;
+    }
+    
+     ::-webkit-scrollbar-thumb {
+        background: rgb(243, 27, 27);
+        border-radius: 10px;
+    }
+    
+     ::-webkit-scrollbar-thumb:hover {
+        background: red;
+    }
+    
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        outline: none;
+    }
+    
+    section {
+        position: relative;
+    }
+    
+    form {
+        padding: 30px;
+    }
+    
+    select {
+        margin-top: 5px;
+    }
+    
+    input {
+        margin-top: 10px;
+        background: rgb(243, 243, 243);
+        padding: 10px;
+        border: none;
+        width: 100%;
+    }
+    
+    .container {
+        background-color: white;
+        padding: 30px;
+        width: 400px;
+        border-radius: 5px;
+    }
+    
+    button {
+        border: none;
+        padding: 10px;
+        width: 100%;
+        background-color: #d966ff;
+        color: white;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        font-size: 1em;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+    header a {
+        width: 100%;
+        color: white;
+        text-decoration: none;
+    }
+    
+    header a:hover {
+        text-decoration: none;
+        color: #5bc0de;
+    }
+    
+    footer {
+        width: 100%;
+        background: black;
+        float: left;
+        color: white;
+        padding: 30px 0;
+    }
+    
+    footer .footer-box {
+        width: 25%;
+        float: left;
+        height: 100%;
+    }
+    
+    footer .footer-box a {
+        display: block;
+        color: white;
+        font-size: 20px;
+        text-transform: capitalize;
+    }
+    
+    footer .footer-box a:hover {
+        text-decoration: none;
+        color: red;
+    }
+    
+    .slideshow-container {
+        position: relative;
+        margin: auto;
+    }
+    
+    .slide {
+        -webkit-animation-name: slide;
+        -webkit-animation-duration: 2s;
+        animation-name: slide;
+        animation-duration: 2s;
+    }
+    
+    .container-fluid {
+        background-image: url(images/logo23.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    @-webkit-keyframes slide {
+        from {
+            opacity: .4
+        }
+        to {
+            opacity: 1
+        }
+    }
+    
+    @keyframes slide {
+        from {
+            opacity: .4
+        }
+        to {
+            opacity: 1
+        }
+    }
+</style>
+
+<body>
+
+    <div style="background-color: #DF691A; padding-bottom: 10px;padding-top: 10px;text-align: center;">
+        <header>
+            <a href="index.html" style="font-size: 30px;">Phoenix Hospital</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="index.html" style="font-size: 15px;"><img src="images/logo6.jpg" width="20px" height="20px">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="register.html" target="_blank" style="font-size: 15px;">Register</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="gallery.html" target="_blank" style="font-size: 15px;">Gallery</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="appointment.html" style="font-size: 15px;">Book Appointment</a>
+        </header>
+    </div>
+
+    <div class="slideshow-container">
+
+        <div class="mySlides slide">
+            <a href="https://www.mygov.in/covid-19/?cbps=1" target="_blank"><img src="images/logo10.jpg" style="width: 100%; height: 400px;"></a>
+        </div>
+
+        <div class="mySlides slide">
+            <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public" target="_blank"><img src="images/logo9.jpg " style="width: 100%; height: 400px;"></a>
+        </div>
+
+        <div class="mySlides slide">
+            <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public" target="_blank"><img src="images/logo11.jpg " style="width: 100%; height: 400px;"></a>
+        </div>
+
+        <div class="mySlides slide">
+            <img src="images/logo1.jpeg " style="width: 100%; height: 400px;">
+        </div>
+    </div>
+    <div style="background-color: #DF691A; padding-bottom: 10px"></div>
+
+    <div class="container-fluid">
+        <section>
+            <div class="W-80">
+                <div class="form-box">
+
+                    <form style="color: black;">
+                        <div class="container">
+                            <center>
+                                <h1>Make an appointment</h1>
+                            </center>
+                            <br>
+                            <label for="name"><b>Name:</b></label><br/>
+                            <input type="text" placeholder="enter your name" name="name" id="name" required/>
+                            <br/><br/>
+                            <label for="email"><b>Email:</b></label><br/>
+                            <input type="email" placeholder="enter your email" name="email" id="email" required/>
+                            <br/><br/>
+                            <label for="mobile"><b>Mobile:</b></label><br/>
+                            <input type="number" placeholder="enter your mobile number" name="mobile" id="phone number" pattern="[0-9]{10}" required/>
+                            <br/><br/>
+                            <label for="date"><b>date:</b></label><br/>
+                            <input type="date" name="date" id="date" required/>
+                            <div class="main" style="display: flex; justify-content: space-between; width: 80%; margin-left: 10%; margin-top: 35px;">
+                                <div class="left">
+                                    <label for="gender"><b>Gender:</b></label></br>
+                                    <select id="gender">
+          <option value="male">male</option>
+          <option value="female">female</option>
+        </select>
+                                    <br/><br>
+                                    <label for="slot"><b>Slot:</b></label></br>
+
+                                    <select id="slot">
+          <option value="morning">morning</option>
+          <option value="afternoon">afternoon</option>
+          <option value="evening">evening</option>
+        </select>
+                                </div>
+                                <div class="right">
+                                    <label for="city"><b>City:</b></label></br>
+                                    <select id="city">
+          <option value="chennai">chennai</option>
+          <option value="coimbatore">coimbatore</option>
+          <option value="tiruppur">tiruppur</option>
+        </select>
+                                    <br/><br>
+                                    <label for="speciality"><b>Select speciality:</b></label></br>
+
+                                    <select id="speciality">
+          <option value="dentist">dentist</option>
+          <option value="cardiologist">cardiologist</option>
+          <option value="neurosurgeon">neurosurgeon</option>
+          <option value="oncologist">oncologist</option>
+          <option value="gynecologist">gynecologist</option>
+        </select>
+                                    <br/><br>
+
+                                </div>
+                            </div>
+
+
+
+
+
+                            <br><br>
+                            <button type="submit" id="register-btn" onclick="validate()">submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <div class="w-80">
+            <div class="footer-box">
+                <h2>Services</h2>
+                <a href="#">HEPATILOGY</a>
+                <a href="#">MEDICAL DRESSAGE</a>
+                <a href="#">LABORATORY</a>
+                <a href="#">VACCINATIONS</a>
+                <a href="#">WHITENING</a>
+            </div>
+            <div class="footer-box">
+                <h2>Aboutr us</h2>
+                <a href="#">COMPANY OVERVIEW</a>
+                <a href="#">MANAGEMENT</a>
+                <a href="#">INITIATIVES</a>
+                <a href="#">CARRERS</a>
+                <a href="#">OURS DOCTERS ACHIEVE</a>
+            </div>
+            <div class="footer-box">
+                <h2>Contact us</h2>
+                <a href="#">POST A QUERY</a>
+                <a href="#">APOLLO CLINICS</a>
+                <a href="#">REACH HOSPITALS</a>
+                <a href="#">APOLLO CRADLE</a>
+                <a href="#">ASK QUESTIONS</a>
+            </div>
+            <div class="footer-box">
+                <h2>Facilities</h2>
+                <a href="#">HEPATILOGY</a>
+                <a href="#">MEDICAL DRESSAGE</a>
+                <a href="#">LABORATORY</a>
+                <a href="#">VACCINATIONS</a>
+                <a href="#">WHITENING</a>
+            </div>
+        </div>
+        </div>
+    </footer>
+
+    <script>
+        function validate() {
+            alert("Your appointment has been successfully booked.\nFor further details you will get a text message\nto your registered number.")
+        }
+    </script>
+
+    <script>
+        var slideIndex = 1,
+            n = 1;
+        showSlides();
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides ");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none ";
+            }
+            if (slideIndex > slides.length) {
+                slideIndex = 1
+            }
+            if (n > slides.length) {
+                slideIndex = 1
+            }
+            if (n < 1) {
+                slideIndex = slides.length
+            }
+            slides[slideIndex - 1].style.display = "block ";
+            setTimeout(showSlides, 5000);
+            slideIndex++;
+        }
+    </script>
+
+</body>
+
+</html>

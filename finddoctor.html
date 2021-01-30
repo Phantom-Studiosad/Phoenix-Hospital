@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="images/icon7.png" type="image/x-icon">
+    <title>Find A Doctor</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+     ::-webkit-scrollbar {
+            width: 25px;
+        }
+        
+         ::-webkit-scrollbar-track {
+            box-shadow: inset 0 0 5px rgb(0, 255, 255);
+            background-color: black;
+            border-radius: 12px;
+        }
+        
+         ::-webkit-scrollbar-thumb {
+            background: rgb(243, 27, 27);
+            border-radius: 10px;
+        }
+        
+         ::-webkit-scrollbar-thumb:hover {
+            background: red;
+        }
+        
+        body {
+            background: linear-gradient(to bottom, #ffff66 0%, #00ccff 100%);
+            background-color: #ffff66;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        header a {
+            width: 100%;
+            color: white;
+            text-decoration: none;
+        }
+        
+        header a:hover {
+            text-decoration: none;
+            color: #5bc0de;
+        }
+        
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+            table-layout: fixed;
+        }
+        
+        td,
+        th {
+            border: 5px solid green;
+            text-align: left;
+            padding: 8px;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="background-color: #DF691A; padding-bottom: 10px;padding-top: 10px;text-align: center;">
+        <header>
+            <a href="index.html" style="font-size: 30px;">Phoenix Hospital</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="index.html" style="font-size: 15px;"><img src="images/logo6.jpg" width="20px" height="20px">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="register.html" target="_blank" style="font-size: 15px;">Register</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="gallery.html" target="_blank" style="font-size: 15px;">Gallery</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="appointment.html" target="_blank" style="font-size: 15px;">Book Appointment</a>
+        </header>
+    </div><br>
+    <div class="container">
+        <img src="images/docfinder.png" width="1000px" height="200px"><br><br>
+        <div class="dropdown">
+            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Select Department
+    <span class="caret"></span></button>
+            <ul class="dropdown-menu">
+                <li><a href="#d1">Andrology</a></li>
+                <li><a href="#d2">Anesthesia</a></li>
+                <li><a href="#d3">Health check</a></li>
+                <li><a href="#d4">Cancer institute</a></li>
+                <li><a href="#d5">ENT</a></li>
+                <li><a href="#d6">Eye/Opthalmologist</a></li>
+                <li><a href="#d7">General Medicine</a></li>
+                <li><a href="#d8">Heart Clinic/Cardiologist</a></li>
+                <li><a href="#d9">Pediatrics</a></li>
+                <li><a href="#d10">Respiratory Disease</a></li>
+                <li><a href="#d11">Sugar&Endocrine</a></li>
+                <li><a href="#d12">Urology</a></li>
+            </ul>
+        </div><br>
+        <h2 id="d1">Andrology</h2>
+        <table cellpadding="20">
+            <tr>
+                <td>
+                    <h3>Dr. Sriharsha Ajjur</h3><img src="images/d1.jpg" style="width: 230px;height: 310px;"><br><i>Consultant Urologist, Andrologist and Transplant Surgeon</i>
+                    <p>Dr Sriharsha Ajjur received his medical degree from the Rajiv Gandhi University of Health Sciences, Karnataka a premier Health Science University in India. He completed his General surgery training</p>
+                </td>
+                <td>
+                    <h3>Dr. Deepak Bolbandi</h3><img src="images/d2.jpg" style="width: 230px;height: 280px;"><br><i>MBBS, MS(Gen Surgery), Mch(Urology). DNB(Urology), Fellowship Singapore Urological Association (Laser, Laparoscopy and Robotics)</i><br>
+                    <p>Dr.Deepak Bolbandi , a Senior Consultant Urologist and Transplant Surgeon is working with Apollo Hospitals Group since 10 years. He is rated among the best </p>
+                </td>
+                <td>
+                    <h3></h3>
+                </td>
+            </tr>
+        </table>
+        <h2 id="d2">Anesthesia</h2>
+        <table cellpadding="20">
+            <tr>
+                <td>
+                    <h3>Dr. Geetha N Gowdar</h3><img src="images/d3.jpg" style="width: 230px;height: 250px;"><br><i>Senior consultant and Head, 
+          Transfusion Medicine Quality manager for Laboratory services</i><br>
+                    <p>Dr. Geetha N Gowdar is a Senior Consultant in the department of Transfusion Medicine at Apollo Hospitals, Bangalore.</p>
+                </td>
+                <td>
+                    <h3>Dr. K.Subramanayam</h3><img src="images/d4.jpg" style="width: 230px;height: 280px;"><br><i>Head and Coordinator – Department of Anesthesia</i><br>
+                    <p>Dr. Subramaniam has a vast experience of over two decades in the field of Anesthesia and Intensive care.</p>
+                </td>
+                <td>
+                    <h3>Dr M S Kumaraswamy</h3><img src="images/d5.jpg" style="width: 230px;height: 280px;"><br><i>Senior Consultant, Anesthesia</i><br>
+                    <p>Dr. Kumaraswamy has a rich experience of over a decade in the field of Anesthesia, currently he is working as Senior consultant at Apollo Hospitals Bangalore</p>
+                </td>
+            </tr>
+        </table>
+        <h2 id="d3">Health check</h2>
+        <table cellpadding="20">
+            <tr>
+                <td>
+                    <h3>Dr. Mehta Y</h3><img src="images/d6.jpg" style="width: 230px;height: 280px;"><br><i>Consultant, Phoenix Health Check</i><br>
+                    <p>Dr. Mehta Y is a Consultant Physician in the department of Preventive Health Checks. She is a doctor with a post-graduate degree in Family Medicine</p>
+                </td>
+                <td>
+                    <h3>Dr. Nagaraj S</h3><img src="images/d7.jpg" style="width: 230px;height: 280px;"><br><i>Senior Consultant – Internal Medicine</i><br>
+                    <p>Dr. Nagaraj S is a Senior Consultant Physician in the department of General Medicine, practicing for more than 15 years</p>
+                </td>
+                <td></td>
+            </tr>
+        </table>
+        <h2 id="d4">Cancer institute</h2>
+        <table cellpadding="20">
+            <tr>
+                <td>
+                    <h3>Dr. P. P Bapsy</h3><img src="images/d8.jpg" style="width: 230px;height: 280px;"><br><i>Senior Consultant and Head of Department, Oncology</i><br>
+                    <p>Dr. Bapsy is an expert Oncologist of International repute and is the first women in India to obtain D.M in Medical Oncology. Her expertise in treating</p>
+                </td>
+                <td>
+                    <h3>Dr. B Krishnamoorthy Reddy</h3><img src="images/d9.jpg" style="width: 230px;height: 250px;"><br><i>Senior Consultant and Chief Radiation Oncologist</i><br>
+                    <p>Dr. B. K. M Reddy is a dynamic doctor, having a vast experience of over 30 years. He established the department of Radiation Oncology at Apollo Hospitals, Bangalore. He has also served as a professor and HOD before joining Apollo.
+                    </p>
+                </td>
+                <td>
+                    <h3>Dr. M. Chandrashekar</h3><img src="images/d10.jpg" style="width: 230px;height: 280px;"><br><i>Senior Consultant-Surgical Oncology</i><br>
+                    <p>Dr Chandrashekar is a Senior Surgical Oncologist with over 3 decades of experience in the management of variety of solid tumors involving</p>
+                </td>
+            </tr>
+        </table>
+        <h2 id="d5">ENT</h2>
+        <table cellpadding="20">
+            <tr>
+                <td>
+                    <h3>Dr.(Prof) Satish Nair</h3><img src="images/d11.jpg" style="width: 230px;height: 280px;"><br><i>MBBS, MS (ENT), Post Doctoral training in Head and Neck Oncology
+        Sr Consultant - ENT, Head & Neck Surgery</i><br>
+                    <p>Dr Satish’s approach to the profession is simple as he has committed himself to a lifetime of clinical excellence. He treats patients with utmost compassion</p>
+                </td>
+                <td>
+                    <h3>Dr. Sunil Narayan Dutt</h3><img src="images/d12.jpg" style="width: 230px;height: 240px;"><br><i>M.S (ENT), D.N.B (ORL), D.L.O., RCS (Eng), FRCS ED, FRCS (ORL-HNS) , PhD , Clinical Fellowship – Otology/Neurotology
+        Senior Consultant and Cochlear Implant Surgeon</i><br>
+                    <p>Dr. Sunil Narayan Dutt is a world renowned Otolaryngologist with over two decades of experience in ENT. He was the first Coordinator and Head of the Department of ENT in Apollo Bangalore. </p>
+                </td>
+                <td>
+                    <h3>Dr. Satish Babu K</h3><img src="images/d13.jpg" style="width: 230px;height: 280px;"><br><i>MBBS, DLO, MS(ENT)
+        Senior Consultant - ENT Surgeon</i><br>
+                    <p>Dr. Satish Babu is Experienced in all types of Endoscopic Nasal/ Sinus Surgeries and Microscopic ear/Laryngeal Surgeries</p>
+                </td>
+            </tr>
+        </table>
+        <h2 id="d6">Eye/Opthalmologist</h2>
+        <table cellpadding="20">
+            <tr>
+                <td>
+                    <h3>Dr. Shalini Shetty</h3><img src="images/d14.jpg" style="width: 230px;height: 280px;"><br><i>MBBS, MS, FRCS
+        Senior Consultant Ophthalmologist</i><br>
+                    <p>Dr. Shalini Shetty is an expert in the field of Ophthalmology. A senior Consultant in the department of Ophthalmology, she is a thespian having 16 years of experience in the field</p>
+                </td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+        <h2 id="d7">General Medicine</h2>
+        <table cellpadding="20">
+            <tr>
+                <td>
+                    <h3>Dr. Rajeeva Moger</h3><img src="images/d15.jpg" style="width: 230px;height: 280px;"><br><i>Senior Consultant,Physician</i><br>
+                    <p>Dr. Rajeeva Moger is a senior consultant physician in the department of Internal Medicine. His Compassion, excellent bedside manners, clinical judgment, skills and attitude have gained him recognition in the field of medicine</p>
+                </td>
+                <td>
+                    <h3>Dr. Kalpana Janardhan</h3><img src="images/d16.jpg" style="width: 230px;height: 280px;"><br><i>Senior Consultant Physician</i><br>
+                    <p>Dr. Kalpana Janardhan, is a Senior Consultant in the department of General Medicine. After having practiced in USA for more than six years, she came to India to offer her services and is currently with Apollo Hospitals, Bangalore.
+                    </p>
+                </td>
+                <td>
+                    <h3>Dr. Jyothsna Krishnappa</h3><img src="images/d17.jpg" style="width: 230px;height: 280px;"><br><i>Senior Consultant Physician</i><br>
+                    <p>Dr. Jyothsna Krishnappa is a senior consultant in the Department of Internal Medicine at Apollo Hospitals, Bangalore. She is an expert in a wide spectrum of clinical problems & plays a leading role in managing urgent and emergency
+                        patients. </p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h3>Dr. B.S.Ramesh. , Lt.Col. (Rtd).</h3><img src="images/d18.jpg" style="width: 230px;height: 280px;"><br><i>Senior Consultant Physician</i><br>
+                    <p>Dr. Ramesh B.S is a senior consultant in internal medicine. He has gained expertise in this field through an illustrious career spanning more than three decades. </p>
+                </td>
+                <td>
+                    <h3>Dr. Malla Reddy</h3><img src="images/d19.jpg" style="width: 230px;height: 280px;"><br><i>Consultant Physician</i><br>
+                    <p>Dr. Malla Reddy , a proficient name in this field has vast experience.</p>
+                </td>
+                <td></td>
+            </tr>
+        </table>
+        <h2 id="d8">Heart Clinic/Cardiologisty</h2>
+        <table cellpadding="20">
+            <tr>
+                <td>
+                    <h3>Dr. Sathyaki Purushotam Nambala</h3><img src="images/d20.jpg" style="width: 230px;height: 280px;"><br><i>Senior Consultant, Cardio-Thoracic and Vascular Surgery</i><br>
+                    <p>Dr Sathyaki Nambala is one of the leading authorities in the Country in the treatment of heart, lung and vascular surgery. He is the Asia’s first Totally Endoscopic Cardiac Keyhole surgeon and first to start Robotic Heart Surgeon Program
+                        in India. </p>
+                </td>
+                <td>
+                    <h3>Dr. B Ramesh</h3><img src="images/d21.jpg" style="width: 230px;height: 280px;"><br><i>Senior Consultant, Interventional Cardiology</i><br>
+                    <p>Dr. B Ramesh is the leading cardiologist in the country, having 25 years of experience. He is instrumental in bringing department of Cardiology to a world class standard. </p>
+                </td>
+                <td>
+                    <h3>Dr. Girish B Navasundi</h3><img src="images/d22.jpg" style="width: 230px;height: 280px;"><br><i>Senior Consultant, Interventional Cardiology</i><br>
+                    <p>Dr. Navasundi is working as a Consultant in the department of Cardiology at Apollo. He has extensive experience of several years in the field of Cardiology.</p>
+                </td>
+            </tr>
+        </table>
+        <h2 id="d9">Pediatrics</h2>
+        <table cellpadding="20">
+            <tr>
+                <td>
+                    <h3>Dr. Ramesh Sungal</h3><img src="images/d23.jpg" style="width: 230px;height: 250px;"><br><i>MBBS, MD-Pediatrics, Fellowship in Pediatric Emergency
+        Senior Consultant</i><br>
+                    <p>Dr Ramesh Sungal is a well known pediatrician in Bengaluru for more than a decade. He has worked in premier institutes in Bengaluru before joining Apollo Hospital</p>
+                </td>
+                <td>
+                    <h3>Dr. Radha Krishna Hegde</h3><img src="images/d24.jpg" style="width: 230px;height: 280px;"><br><i>Senior Consultant & Coordinator</i><br>
+                    <p>Dr. Hedge has vast experience in the field of Pediatric and is working as a senior Consultant & coordinator. </p>
+                </td>
+                <td>
+                    <h3>Dr.Prashanth .S.Urs</h3><img src="images/d25.jpg" style="width: 230px;height: 280px;"><br><i>MBBS,DNB (Pediatrics), DCH,Fellowship in Neonatology (Australia)
+        Sr.Consultant Neonatologist & Pediatrician</i><br>
+                    <p>Dr. Prashanth has more than 15years of Teaching and clinical experience in Neonatology and Pediatrics. </p>
+                </td>
+            </tr>
+        </table>
+        <h2 id="d10">Respiratory Disease</h2>
+        <table cellpadding="20">
+            <tr>
+                <td>
+                    <h3>Dr. Sumant Mantri</h3><img src="images/d26.jpg" style="width: 230px;height: 280px;"><br><i>Senior Consultant, Pulmonary and Sleep Medicine</i><br>
+                    <p>Dr. Sumant Mantri is a Senior Consultant, Pulmonary & Sleep Medicine at Apollo Hospitals Banerghatta Road – Bangalore. He Graduated from Pune University in 1995. </p>
+                </td>
+                <td>
+                    <h3>Dr. Ravindra M. Mehta</h3><img src="images/d27.jpg" style="width: 230px;height: 250px;"><br><i>Senior Consultant, Pulmonology, Interventional Pulmonology and Critical Care Medicine</i><br>
+                    <p>Dr. Ravindra Mehta is an established clinician, researcher, and a teacher in the field of Pulmonology (Respiratory/Chest Medicine), Critical care (Intensive Care) and Sleep Disorders Medicine </p>
+                </td>
+                <td></td>
+            </tr>
+        </table>
+        <h2 id="d11">Sugar&Endocrine</h2>
+        <table cellpadding="20">
+            <tr>
+                <td>
+                    <h3>Dr. Dwarakanath C.S.</h3><img src="images/d28.jpg" style="width: 230px;height: 280px;"><br><i>Consultant, Endocrinology</i><br>
+                    <p>Dr. Dwarakanath C.S. is a highly skilled doctor, having many years of experience in Endocriology.</p>
+                </td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+        <h2 id="d12">Urology</h2>
+        <table cellpadding="20">
+            <tr>
+                <td>
+                    <h3>Dr. Sriharsha Ajjur</h3><img src="images/d29.jpg" style="width: 230px;height: 310px;"><br><i>Consultant Urologist, Andrologist and Transplant Surgeon</i><br>
+                    <p>Dr Sriharsha Ajjur received his medical degree from the Rajiv Gandhi University of Health Sciences, Karnataka a premier Health Science University in India. He completed his General surgery training </p>
+                </td>
+                <td>
+                    <h3>Dr. Deepak Bolbandi</h3><img src="images/d30.jpg" style="width: 230px;height: 280px;"><br><i>MBBS, MS(Gen Surgery), Mch(Urology). DNB(Urology), Fellowship Singapore Urological Association (Laser, Laparoscopy and Robotics)</i><br>
+                    <p>Dr.Deepak Bolbandi , a Senior Consultant Urologist and Transplant Surgeon is working with Apollo Hospitals Group since 10 years. He is rated among the best </p>
+                </td>
+                <td>
+                    <h3>Dr.(Prof)V Sreedhar Reddy</h3><img src="images/d31.jpg" style="width: 230px;height: 280px;"><br><i>MBBS, MS, MCh(Urology), DNB(Urology), MNAMS(Urology), FRTS, FIMS
+        Senior Consultant, Urologist and Kidney transplant surgeon</i><br>
+                    <p>Dr. V. Sreedhar Reddy a leading name in the department of Urology. Has over twelve years of experience in this field. He aims to bring Apollo urology department on the world map</p>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+</body>
+
+</html>
