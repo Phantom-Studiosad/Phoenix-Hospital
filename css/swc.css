@@ -1,0 +1,39 @@
+#mask {
+  position:absolute;
+  left:0;
+  top:0;
+  z-index:9000;
+  background-color:#26262c;
+  display:none;
+}  
+#boxes .window {
+  position:absolute;
+  left:0;
+  top:0;
+  width:700px;
+  height:400px;
+  display:none;
+  z-index:9999;
+  padding:20px;
+  border-radius: 5px;
+  background-color: greenyellow;
+  text-align: center;
+}
+#boxes #dialog {
+  width:800px; 
+  height:450px;
+  padding: 10px 10px 10px 10px;
+  background-color: greenyellow;
+  font-size: 15pt;
+}
+
+.agree:hover{
+  background-color: #D1D1D1;
+}
+.popupoption:hover{
+ background-color:#D1D1D1;
+ color: green;
+}
+.popupoption2:hover{
+ color: red;
+}

@@ -1,0 +1,183 @@
+::-webkit-scrollbar {
+    width: 25px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgb(0, 255, 255);
+    background-color: black;
+    border-radius: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(243, 27, 27);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: red;
+}
+
+body{
+    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+    background-color: #33ccff;
+    background-repeat: no-repeat;
+    text-decoration: none;
+}
+
+.w-80 {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    padding: 10px 10px;
+}
+
+header a {
+    width: 100%;
+    color: white;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: none;
+    color: #5bc0de;
+}
+
+footer {
+    width: 100%;
+    background: black;
+    float: left;
+    color: white;
+    padding: 30px 0;
+}
+
+footer .footer-box {
+    width: 25%;
+    float: left;
+    height: 100%;
+}
+
+footer .footer-box a {
+    display: block;
+    color: white;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+footer .footer-box a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+section{
+    width: 100%;
+    float: left;
+}
+
+section   .section-bg-box{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0,0, 0.3);
+    text-align: center;
+    padding: 150px 0;
+   
+}
+section .section-bg-box h1{
+    background: green;
+    color: white;
+    font-size: 50px;
+    width: 50%;
+    margin: auto;
+}
+section .section-bg-box h2{
+    background: blue;
+    color: white;
+    width: 50%;
+    margin: auto;
+    font-size: 20px;
+}
+section .welcome-text{
+    font-size: 35px;
+    text-transform: uppercase;
+    background: red;
+    width: 60%;
+    padding: 0 5px;
+    color: white;
+}
+section p{
+    font-size: 22px;
+    text-align: justify;
+    color: black;
+}
+section .vamsi{
+    font-size: 35px;
+    text-transform: uppercase;
+    background: red;
+    width: 60%;
+    padding: 0 5px;
+    color: white;
+}
+section .about-box{
+    width: 100%;
+}
+section .about-box p{
+    font-size: 18px;
+}
+section .about-box div:nth-child(1){
+    width: 60%;
+    float: left;
+    padding: 10px;
+}
+section .about-box div:nth-child(2){
+    width: 40%;
+    float: left;
+    padding: 10px;
+}
+
+section  .form-box{
+    padding: 20px;
+}
+section .form-box .gallery{
+    width: 100%;
+    height: 200px;
+    padding: 0 5px;
+}
+section .form-box  .gallery div{
+    width: 25%;
+    height: 100%;
+    float: left;
+    padding: 5px;
+}
+section .form-box .gallery div img{
+    border-radius: 10px;
+}
+section .form-box form{
+    margin-top: 20px;
+}
+section .form-box input:focus,textarea:focus,button:focus{
+    outline: none;
+    border:none ;
+}
+section .form-box input{
+    width: 50%;
+    height: 35%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0 10px;
+    font-family: Gotu;
+    font-size:16px;
+}
+section .form-box form #register-btn{
+    font-family: muli;
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor:pointer;
+    border-radius: 3px;
+}
+section .form-box form #register-btn{
+background: #007bff;
+}
+section .form-box form #register-btn:hover{
+    background: blue;
+}

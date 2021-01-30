@@ -1,0 +1,69 @@
+::-webkit-scrollbar {
+    width: 25px;
+    }
+
+::-webkit-scrollbar-track {
+box-shadow: inset 0 0 5px rgb(0, 255, 255);
+background-color: black;
+border-radius: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+background: rgb(243, 27, 27);
+border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+background: red;
+}
+*{
+    text-decoration: none;
+}
+ table{
+     color:rgb(10, 10, 10);
+     border-radius:20px;
+ }
+ #button{
+     background-color:green;
+     color:rgb(19, 18, 18);
+     height:32px;
+     width:85px;
+     border-radius:25px;
+ }
+ header a {
+width: 100%;
+color: white;
+text-decoration: none;
+}
+
+header a:hover {
+text-decoration: none;
+color: #5bc0de;
+}
+
+footer {
+    width: 100%;
+    background: black;
+    float: left;
+    color: white;
+    padding: 30px 0;
+}
+
+footer .footer-box {
+    width: 25%;
+    float: left;
+    height: 100%;
+}
+
+footer .footer-box a {
+    display: block;
+    color: white;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+footer .footer-box a:hover {
+    text-decoration: none;
+    color: red;
+}
+
