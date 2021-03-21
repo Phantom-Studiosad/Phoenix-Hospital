@@ -5,7 +5,7 @@ The Website is deployed in : https://dharun-narayanan.github.io/Phoenix-Hospital
 
 ## Modules In The Website
 
-This website includes the following modules: -
+This website includes the following modules:-
  - Doctor Appointment Booking.
  - Finding avaliable specialists in the hospital.
  - Interface for paying bill.
