@@ -1,7 +1,7 @@
 # Phoenix-Hospital
 Phoenix Hospital is an user interface project done using HTML, CSS, Javascript in vscode editor with no backend connection. This website is inspired from [Apollo Hospitals](https://www.apollohospitals.com/) website 🥰...<br>
 The website was created during the pandemic and the slideshow slides navigate to the [Who](https://www.who.int/) websites.<br>
-The Website is deployed in : http://dharun-narayanan.ml/
+The Website is deployed in : https://phantom-studiosad.github.io/Phoenix-Hospital/
 
 ## Modules In The Website
 
